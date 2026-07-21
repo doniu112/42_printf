@@ -1,0 +1,32 @@
+# Pliki skompilowane
+*.o
+*.a
+*.so
+*.out
+
+# Programy wykonywalne
+a.out
+
+# Pliki debugowania
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Valgrind
+vgcore.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pliki tymczasowe
+*.tmp
+*.log
+*~
