@@ -21,12 +21,14 @@ int	ft_printf(const char *format, ...)
 	{
 		if (*format == '%')
 		{
-			ft_conversion(*format, *(format + 1), va_arg(args, ft_check_type(*(format + 1))));
-			format++;
+			ft_conversion(*(format + 1), args);
+			format += 2;
 		}
 		else
+		{
 			ft_putchar(*format);
-		format++;
+			format++;
+		}
 	}
 	va_end(args);	
 	return (0);
