@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/18 17:36:57 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/19 11:12:00 by dswietoc         ###   ########.fr       */
+/*   Created: 2026/07/21 19:31:02 by dswietoc          #+#    #+#             */
+/*   Updated: 2026/07/21 19:31:02 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	ft_putchar(char c)
 {
