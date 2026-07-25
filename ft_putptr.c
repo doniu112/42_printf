@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:33:31 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/21 19:33:31 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/07/25 11:56:19 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,6 @@
 int	ft_putptr(void *ptr)
 {
 	ft_putstr("0x");
+	ft_putstr(ptr);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:31:23 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/21 19:31:23 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/07/25 11:51:03 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,6 @@ int	ft_printf(const char *format, ...)
 			format++;
 		}
 	}
-	va_end(args);	
+	va_end(args);
 	return (0);
 }
