@@ -3,6 +3,8 @@
 *.a
 *.so
 *.out
+main.c
+test
 
 # Programy wykonywalne
 a.out

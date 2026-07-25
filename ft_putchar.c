@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:31:02 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/21 19:31:02 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/07/25 13:17:53 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@
 int	ft_putchar(char c)
 {
 	write(1, &c, 1);
-	return (0);
+	return (1);
 }
