@@ -24,7 +24,7 @@ int	ft_printf(const char *format, ...);
 int	ft_putstr(char *str);
 int	ft_putchar(char c);
 int	ft_putnbr(int num);
-int	ft_puthex(uintptr_t number, char var_type);
+int	ft_puthex(unsigned long number, char var_type);
 int	ft_strlen(char *str);
 int	ft_putptr(void *ptr);
 int	ft_conversion(char var_type, va_list *args);

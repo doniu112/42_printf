@@ -14,11 +14,11 @@
 
 int	ft_putptr(void *ptr)
 {
-	unsigned long	addr;
+	uintptr_t	addr;
 	int		strlen;
 
 	strlen = 0;
-	addr = (unsigned long)ptr;
+	addr = (uintptr_t)ptr;
 	if (!ptr)
 		return (ft_putstr("(nil)"));
 	strlen += ft_putstr("0x");
