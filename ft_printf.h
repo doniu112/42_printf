@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:31:13 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/25 13:13:04 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/08/01 11:28:25 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,14 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdarg.h>
-#include <stdint.h>
+# include <stdint.h>
 
 
 int	ft_printf(const char *format, ...);
 int	ft_putstr(char *str);
 int	ft_putchar(char c);
 int	ft_putnbr(int num);
-int	ft_puthex(uintptr_t number, char var_type);
+int	ft_puthex(unsigned long long number, char var_type);
 int	ft_strlen(char *str);
 int	ft_putptr(void *ptr);
 int	ft_conversion(char var_type, va_list *args);

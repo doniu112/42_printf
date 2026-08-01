@@ -32,6 +32,7 @@ Thumbs.db
 *.tmp
 *.log
 *~
+
 ft_printf_tester-master/.gitignore
 ft_printf_tester-master/.gitmodules
 ft_printf_tester-master/Makefile

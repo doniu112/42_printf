@@ -6,16 +6,16 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:30:42 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/25 14:00:14 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/08/01 11:29:44 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_puthex(unsigned long number, char var_type)
+int	ft_puthex(unsigned long long number, char var_type)
 {
 	char	*base;
-	int	count;
+	int		count;
 
 	count = 0;
 	if (var_type == 'x')
