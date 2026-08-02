@@ -40,14 +40,13 @@ The goal of the project is to learn how variadic functions work, process format 
 ├── Makefile
 ├── ft_printf.h
 ├── ft_printf.c
-├── ft_conversion.c
+├── ft_format.c
 ├── ft_putchar.c
 ├── ft_puthex.c
 ├── ft_putnbr.c
 ├── ft_putptr.c
 ├── ft_putstr.c
 ├── ft_putunint.c
-├── ft_strlen.c
 └── README.md
 ```
 

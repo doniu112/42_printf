@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:31:23 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/25 14:46:57 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/08/02 09:38:09 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	ft_printf(const char *str, ...)
 	{
 		if (*str == '%')
 		{
-			strlen += ft_conversion(*(str + 1), &args);
+			strlen += ft_format(*(str + 1), &args);
 			str += 2;
 		}
 		else

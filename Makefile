@@ -6,7 +6,7 @@
 #    By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/18 17:20:39 by dswietoc          #+#    #+#              #
-#    Updated: 2026/07/25 12:30:56 by dswietoc         ###   ########.fr        #
+#    Updated: 2026/08/02 09:43:31 by dswietoc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,13 +17,12 @@ CFLAGS = -Wall -Wextra -Werror
 NAME = libftprintf.a
 
 SRCS = ft_printf.c \
-	ft_conversion.c \
+	ft_format.c \
 	ft_putchar.c \
 	ft_puthex.c \
 	ft_putnbr.c \
 	ft_putptr.c \
 	ft_putstr.c \
-	ft_strlen.c \
 	ft_putunint.c
 	
 

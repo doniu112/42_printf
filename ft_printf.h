@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:31:13 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/08/01 11:28:25 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/08/02 09:42:34 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@ int	ft_putstr(char *str);
 int	ft_putchar(char c);
 int	ft_putnbr(int num);
 int	ft_puthex(unsigned long long number, char var_type);
-int	ft_strlen(char *str);
+// int	ft_strlen(char *str);
 int	ft_putptr(void *ptr);
-int	ft_conversion(char var_type, va_list *args);
+int	ft_format(char var_type, va_list *args);
 int	ft_putunint(unsigned int number);
 
 #endif

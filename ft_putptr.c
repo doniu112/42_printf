@@ -6,7 +6,7 @@
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:33:31 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/08/01 11:30:13 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/08/02 09:33:46 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_putptr(void *ptr)
 {
 	unsigned long long	addr;
-	int		strlen;
+	int			strlen;	
 
 	strlen = 0;
 	addr = (unsigned long long)ptr;

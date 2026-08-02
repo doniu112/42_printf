@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_conversion.c                                    :+:      :+:    :+:   */
+/*   ft_format.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dswietoc <dswietoc@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/21 19:31:34 by dswietoc          #+#    #+#             */
-/*   Updated: 2026/07/25 12:00:21 by dswietoc         ###   ########.fr       */
+/*   Updated: 2026/08/02 09:38:09 by dswietoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_conversion(char var_type, va_list *args)
+int	ft_format(char var_type, va_list *args)
 {
 	if (var_type == 'c')
 		return (ft_putchar(va_arg(*args, int)));
